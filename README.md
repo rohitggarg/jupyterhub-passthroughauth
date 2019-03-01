@@ -11,10 +11,9 @@ This kind of module is very useful if you like to provide guest access to your j
 
 ### Configuration
 
-* Create a machine user ```ubuntu``` if not present already
 * jupyterhub_config.py
 ```python
-c.JupyterHub.authenticator_class = 'passthrough.PassThroughAuthenticator'
+c.JupyterHub.authenticator_class = 'passthroughauth.PassThroughAuthenticator'
 c.PassThroughAuthenticator.guest_user = 'ubuntu'
 c.Authenticator.auto_login = True # Disables PAM login completely, use False otherwise
 ```

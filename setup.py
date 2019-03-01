@@ -8,12 +8,12 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='jupyterhub-passthrough',
-    version='0.0.2',
+    name='jupyterhub-passthroughauth',
+    version='0.0.1',
     description='Pass-through authentication for jupyterhub, enabling direct access to the session of a particular locked down user.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/rohitggarg/jupyterhub-passthrough',
+    url='https://github.com/rohitggarg/jupyterhub-passthroughauth',
     author='Rohit Garg',
     author_email='rohitgarg19@gmail.com',
     classifiers=[
