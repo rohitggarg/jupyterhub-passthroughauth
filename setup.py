@@ -36,7 +36,7 @@ setup(
     extras_require={
         'dev': ['check-manifest'],
         'test': ['coverage'],
-    }
+    },
     project_urls={
         'Bug Reports': 'https://github.com/rohitggarg/jupyterhub-passthrough/issues',
         'Funding': 'https://donate.pypi.org',
