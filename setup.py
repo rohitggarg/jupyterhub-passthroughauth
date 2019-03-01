@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='jupyterhub-passthrough',
-    version='0.0.1',
+    version='0.0.2',
     description='Pass-through authentication for jupyterhub, enabling direct access to the session of a particular locked down user.',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -18,8 +18,8 @@ setup(
     author_email='rohitgarg19@gmail.com',
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Intended Audience :: JupyterHub Users',
-        'Topic :: Software Development :: JupyterHub :: Login :: Guest Access',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
@@ -38,9 +38,9 @@ setup(
         'test': ['coverage'],
     },
     project_urls={
-        'Bug Reports': 'https://github.com/rohitggarg/jupyterhub-passthrough/issues',
-        'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'https://github.com/rohitggarg/jupyterhub-passthrough',
-        'Source': 'https://github.com/rohitggarg/jupyterhub-passthrough',
+        'Bug Reports': 'https://github.com/rohitggarg/jupyterhub-passthroughauth/issues',
+        'Funding': 'https://www.paypal.me/rohitggarg',
+        'Say Thanks!': 'https://github.com/rohitggarg',
+        'Source': 'https://github.com/rohitggarg/jupyterhub-passthroughauth',
     },
 )
